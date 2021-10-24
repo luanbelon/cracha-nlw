@@ -4,7 +4,7 @@
 <circle cx="278" cy="99" r="300" transform="rotate(-180 278 99)" fill="url(#paint0_radial_)"/>
 <circle cx="98" cy="99" r="300" transform="rotate(-180 98 99)" fill="url(#paint1_radial_)"/>
 <mask id="mask0_" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="375" height="812">
-<rect width="375" height="812" fill="#202024"/>
+<rect width="375" height="812" fill="#EAEAEA"/>
 </mask>
 <g mask="url(#mask0_)">
 <path d="M375 168.101V-310.699L187.478 -418.486L-0.0446777 -310.699V168.101L187.478 275.894L375 168.101Z" fill="url(#paint2_linear_)"/>
@@ -24,11 +24,11 @@
 <stop offset="1" stop-color="#121214" stop-opacity="0"/>
 </radialGradient>
 <radialGradient id="paint1_radial_" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(98 99) rotate(90) scale(300)">
-<stop stop-color="#FF3D6E"/>
+<stop stop-color="#00FFE0"/>
 <stop offset="1" stop-color="#121214" stop-opacity="0"/>
 </radialGradient>
 <linearGradient id="paint2_linear_" x1="-67.9497" y1="58.9385" x2="436.115" y2="232.357" gradientUnits="userSpaceOnUse">
-<stop stop-color="#FF008E"/>
+<stop stop-color="#00FFE0"/>
 <stop offset="1" stop-color="#FFCD1E"/>
 </linearGradient>
 <linearGradient id="paint3_linear_" x1="95.1275" y1="217.565" x2="2.23833" y2="59.047" gradientUnits="userSpaceOnUse">
