@@ -31,3 +31,26 @@ function getGitHubProfileInfos() {
 }
 
 getGitHubProfileInfos()
+
+
+function activeGreenTheme(){
+  const mainContent = document.querySelector('main')
+  const buttonGreenTheme = document.querySelector('#green-theme')
+  const buttonDefaultTheme = document.querySelector('#default-theme')
+
+  mainContent.style.backgroundImage='url(img/green-theme.svg)'
+  mainContent.style.transitionDuration="2s"
+  buttonGreenTheme.style.display='none'
+  buttonDefaultTheme.style.display='block'
+}
+
+function activeDefaultTheme(){
+  const mainContent = document.querySelector('main')
+  const buttonGreenTheme = document.querySelector('#green-theme')
+  const buttonDefaultTheme = document.querySelector('#default-theme')
+
+  mainContent.style.backgroundImage='url(img/background.svg)'
+  mainContent.style.transitionDuration="2s"
+  buttonGreenTheme.style.display='block'
+  buttonDefaultTheme.style.display='none'
+}
